@@ -2,7 +2,7 @@
     "homepage": "https://github.com/Z3Prover/z3",
     "license": "MIT",
     "description": "z3 smt solver",
-    "extract_dir": "z3",
+    "extract_to": "z3",
     "version": "4.8.5",
     "architecture": {
         "64bit": {
