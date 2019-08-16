@@ -3,7 +3,7 @@
     "license": "MIT",
     "description": "z3 smt solver",
     "version": "4.8.5",
-    "extract_dir": "z3-$version-*",
+    "extract_dir": "z3-*",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.5/z3-4.8.5-x64-win.zip"
