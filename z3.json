@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.5/z3-4.8.5-x64-win.zip",
-            "extract_dir": "z3-4.8.5-x64-win.zip"
+            "extract_dir": "z3-4.8.5-x64-win"
         },
         "32bit": {
             "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.5/z3-4.8.5-x86-win.zip",
-            "extract_dir": "z3-4.8.5-x86-win.zip"
+            "extract_dir": "z3-4.8.5-x86-win"
         }
     },
     "env_add_path": "bin",
