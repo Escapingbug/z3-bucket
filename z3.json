@@ -1,0 +1,33 @@
+{
+    "homepage": "https://github.com/Z3Prover/z3",
+    "license": "MIT",
+    "description": "z3 smt solver",
+    "extract_dir": "z3",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.5/z3-4.8.5-x64-win.zip"
+        },
+        "32bit": {
+            "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.5/z3-4.8.5-x86-win.zip"
+        }
+    },
+    "env_add_path": "bin",
+    "env_set": {
+        "LIB": "$env:LIB;$dir\\bin",
+        "INCLUDE": "$env:INCLUDE;$dir\\include",
+        "PYTHONPATH": "$env:PYTHONPATH;$dir\\bin/python"
+    },
+    "bin": [
+        "bin/z3.exe"
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Z3Prover/z3/releases/download/Z3-$version/z3-$version-x64-win.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Z3Prover/z3/releases/download/Z3-$version/z3-$version-x86-win.zip"
+            }
+        }
+    }
+}
