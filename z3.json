@@ -5,11 +5,11 @@
     "version": "4.8.9",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.9/z3-4.8.9-x64-win.zip",
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.9/z3-4.8.9-x64-win.zip",
             "extract_dir": "z3-4.8.9-x64-win"
         },
         "32bit": {
-            "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.9/z3-4.8.9-x86-win.zip",
+            "url": "https://github.com/Z3Prover/z3/releases/download/z3-4.8.9/z3-4.8.9-x86-win.zip",
             "extract_dir": "z3-4.8.9-x86-win"
         }
     },
@@ -25,10 +25,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Z3Prover/z3/releases/download/Z3-$version/z3-$version-x64-win.zip"
+                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x64-win.zip"
             },
             "32bit": {
-                "url": "https://github.com/Z3Prover/z3/releases/download/Z3-$version/z3-$version-x86-win.zip"
+                "url": "https://github.com/Z3Prover/z3/releases/download/z3-$version/z3-$version-x86-win.zip"
             }
         }
     }
