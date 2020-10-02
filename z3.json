@@ -2,7 +2,7 @@
     "homepage": "https://github.com/Z3Prover/z3",
     "license": "MIT",
     "description": "z3 smt solver",
-    "version": "4.8.5",
+    "version": "4.8.9",
     "architecture": {
         "64bit": {
             "url": "https://github.com/Z3Prover/z3/releases/download/Z3-4.8.9/z3-4.8.9-x64-win.zip",
